@@ -3,8 +3,10 @@
 
 **DL Enigma 1.0 (SUST CSE Carnival) – 1st Place in SUST**
 
-![Project Banner](https://via.placeholder.com/1200x400/0A66C2/FFFFFF?text=RoadEye+BD)  
-*(Replace with your actual banner or competition poster)*
+![Project Banner](banner.jpg) 
+
+
+
 
 ## 📋 Project Overview
 
@@ -12,9 +14,10 @@
 
 The system combines two **RT-DETR** models with **Weighted Box Fusion (WBF)** to deliver high accuracy on rare and small objects (wheelchairs, trains, construction vehicles, etc.) under varying lighting, occlusion, and motion conditions.
 
-**Live Demo** → [Streamlit Web UI](https://your-streamlit-link)  
-**API** → FastAPI REST endpoint (Docker-ready)
 
+![Output 1](infer1.jpg) 
+![Output 2](infer2.jpg) 
+![Output 3](infer3.jpg) 
 ## ✨ Features
 
 - Ensemble of two Ultralytics **RT-DETR** models (100 + 60 epochs)
@@ -25,6 +28,10 @@ The system combines two **RT-DETR** models with **Weighted Box Fusion (WBF)** to
 - **Streamlit** interactive web UI with real-time camera support
 - Full **Docker** deployment (CPU + GPU)
 - Clean, well-documented code with configuration files
+
+
+
+![Weighted Box Fusion](wbf.jpg) 
 
 ## 🏷️ Object Classes (13)
 
